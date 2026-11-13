@@ -5,7 +5,7 @@
 } 
 body {
   font-family: Arial, sans-serif;
-  background: #eef1f6;
+  background: #6f15ff;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -13,14 +13,27 @@ body {
   padding: 16px; 
 }
 
+
+.people {
+  width: 100%;
+  max-width: 400px;
+  background: #20d620;
+  padding: 20px 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(240, 12, 80, 0.08); 
+} 
+
 .card {
   width: 100%;
   max-width: 400px;
   background: #ffffff;
-  padding: 40px 32px;
+  padding: 4px 32px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
 } 
+
+.name { font-size: 45px; margin-bottom: 20px; color: #000000;} 
+
 .title { font-size: 28px; margin-bottom: 8px; } 
 .subtitle { color: #6b7280; margin-bottom: 
 24px; }
@@ -54,40 +67,40 @@ body {
   align-items: center;
   font-size: 14px; 
 } 
-.link { color: #2563eb; text-decoration: none; } 
-.link:hover { text-decoration: underline; } 
+.link { color:#2563eb; text-decoration: none;}
+.link:hover {text-decoration: underline;}
 .footer {
-  margin-top: 24px;
-  text-align: center;
-  font-size: 14px;
-  color: #6b7280; 
+    margin-top: 24px;
+    text-align: center;
+    font-size: 14px;
+    color: #6b7280;
 }
 
 .button {
-  margin-top: 8px;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  background: #2563eb;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s; 
-} 
-.button:hover {
-  background: #1d4ed8; 
+    margin-top: 8px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
 }
-
-@media (max-width: 480px) { 
-    .card {
-        padding: 28px 20px; 
-    } 
-    .title {
-        font-size: 24px; 
-    } 
+.button:hover {
+    background: #d1d5db;
 }
 
 .input:user-invalid {
-  border-color: #dc2626; 
+    border: #dc2626;
+}
+
+@media (max-width: 450px) {
+    .card{
+        padding: 28px 20px;
+    }
+    .title {
+        font-size: 24px;
+    }
 }
